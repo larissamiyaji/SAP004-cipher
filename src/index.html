@@ -2,81 +2,90 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Correio de César</title>
     <link rel="stylesheet" href="style.css" />
-
-    <header>Correio Cifrado</header>
-<br><br><br>
+    <header>Correio de César</header><hr>
   </head>
 
+<!--CAIXAS DE TEXTO ENCODE-->
   <body>
 <div id="caixas">
 <section id="encode2">
   <div id="encode">
     <form class="digite1" action="index.html" method="post">
-      <label for="mensagem">Digite sua mensagem no campo abaixo</label><br>
+      <label id="encodeTitle" for="mensagem">Digite sua mensagem no campo abaixo</label><br>
     <!--  <input type="text" id="mensagemToEncode" name="mensagemToEncode"
       onclick="enviarTexto()" placeholder="Digite aqui a mensagem que quer manter em segredo 🤐" value="" required> -->
-      <textarea name="name" id="mensagemToEncode" rows="8" cols="80" placeholder="Digite a mensagem que quer manter em segredo 🤐"></textarea>
+      <textarea id="mensagemToEncode" rows="8" cols="80" placeholder="O que você quer dizer?"></textarea>
     </form>
   </div>
 </section>
 
-<section id="decode2">
-  <div id="encoded">
-    <form class="digite2" action="index.html" method="post">
-      <label for="mensagemDecode">Sua mensagem agora fica assim</label><br>
-  <!--    <input type="text" id="mensagemEncoded" name="mensagemEncoded"
-      onclick="enviarTexto()" placeholder="Sua mensagem cifrada vem aqui" value=""> -->
-      <textarea name="name" id="mensagemEncoded" rows="8" cols="80" placeholder="Sua mensagem cifrada vem aqui"></textarea>
-    </form>
-  </div>
-</section>
-</div>
-
-<br><br><br>
-
+<!--ESCOLHA DO OFFSET-->
 <section>
   <div id="offset">
     <form class="offsetButton" action="index.html" method="post">
       <label for="offsetButton">Escolha o deslocamento</label><br>
-      <input type="text" id="offset2" name="offset" onclick="chooseOffset()"
-      placeholder="Digite um número..." value="">
+      <input type="number" id="offset2" onclick="chooseOffset()"
+      placeholder="Digite um número...">
     </form>
   </div>
 </section>
+
 <br>
+
+<!--BOTÃO DE ENCODE-->
 <section>
   <div id="buttons">
   <div id="encodeButton">
     <form class="" action="index.html" method="post">
       <label for="encodeButton"></label>
-      <input type="button" id="encodeButton" action="submit" name="" value="Cifrar">
+      <input type="submit" id="encodeButton" action="submit"
+      onclick="cifrar()" value="Cifrar">
     </form>
   </div>
+
+  <!--BOTÃO DE DECODE-->
   <div id="decodeButton">
     <form class="" action="index.html" method="post">
       <label for="decodeButton"></label>
-      <input type="button" id="decodeButton" name="" value="Decifrar">
+      <input type="submit" id="decodeButton"
+      onclick="decifrar()" value="Decifrar">
     </form>
   </div>
+
+  <!--BOTÃO DE RESETAR-->
     <div id="resetButton">
       <form class="" action="index.html" method="post">
         <label for="resetButton"></label>
-        <input type="reset" id="resetButton" name="resetButton" onclick="restText()" value="Reset">
+        <input type="reset" id="resetButton"
+         onclick="resetText()" value="Reset">
       </form>
     </div>
     </div>
 </section>
-<br><br>
+
+<!--CAIXAS DE TEXTO DECODE-->
+<section id="decode2">
+  <div id="encoded">
+    <form class="digite2" action="index.html" method="post">
+      <label id="decodeTitle" for="mensagemDecode">Sua mensagem agora fica assim</label><br>
+  <!--    <input type="text" id="mensagemEncoded" name="mensagemEncoded"
+      onclick="enviarTexto()" placeholder="Sua mensagem cifrada vem aqui" value=""> -->
+      <textarea id="mensagemEncoded" rows="8" cols="80" placeholder=""></textarea>
+    </form>
+  </div>
+</section>
+</div>
 
 <hr>
 
+<!--CAIXAS DE EXPLICAÇÕES-->
 <section>
   <div id="caixasDeExplicação">
     <div id="introductionCifra">
       <h1>O que é o Correio Cifrado?</h1>
-        <p>O Correio Cifrado é uma ferramenta que auxilia na
+        <p>O Correio de César é uma ferramenta que auxilia na
             cifragem e decifragem de mensagens secretas.
             Usamos a técnica da Cifra de César para transformar
             sua mensagem e manter seus segredos até o destinatário final.</p>
