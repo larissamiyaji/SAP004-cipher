@@ -1,7 +1,8 @@
 html{
   /* background-image: repeating-radial-gradient(#c598ae, #f708561c 449px); */
   background: url("backgroundPicture.jpg");
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  /*font-family: Brush Script MT, Brush Script Std, cursive; */
+  font-family: 'Paprika', cursive;
   color: white;
 }
 header{
@@ -18,7 +19,7 @@ h1{
 #caixasDeExplicação{
   display: inline-block;
 }
-#introductionCifra, #conceitoCifra{
+#introduction, #instructions{
   display: block;
   background: #00000030;
   text-align: center;
@@ -32,6 +33,13 @@ h1{
   border-radius: 90px;
   border-width: 3px;
 }
+#instructionsList{
+  text-align: left;
+  font-size: 30px;
+}
+li{
+  margin-left: 150px;
+}
 #encodeTitle, #decodeTitle{
   text-align: center;
   margin-right: 10px;
@@ -44,7 +52,7 @@ h1{
   height: 150px;
   margin-right: 10px;
   text-align: center;
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: 'Paprika', cursive;
   font-size: 30px;
   border-radius: 10px;
   border-width: 2px;
@@ -57,12 +65,15 @@ h1{
 }
 #buttons{
   display: flex;
-  margin-left: 575px;
-  margin-right: 450px;
+  margin-left: 597px;
+  margin-right: 200px;
 }
-#encodeButton, #decodeButton, #resetButton, #offset2{
+#encodeButton2, #decodeButton2, #offset2{
+  margin-right: 10px;
+  display: inline-block;
   text-align: center;
   font-size: 15px;
+  font-family: 'Paprika', cursive;
   color: white;
   border-radius: 3px;
   border-width: 2px;
@@ -75,6 +86,7 @@ h1{
 }
 #offset2{
   background: #00000030;
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  font-size: 20px;
+  width: 300px;
+  font-family: 'Paprika', cursive;
+  font-size: 15px;
 }
