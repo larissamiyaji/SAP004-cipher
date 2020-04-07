@@ -21,9 +21,9 @@
   <div id="offset">
     <form class="offsetButton" action="index.html" method="post">
       <label for="offsetButton">Selecione o deslocamento</label><br>
-      <input type="number" min="0" id="offset2" placeholder="Digite ou selecione um número...">
+      <input type="number" min="0" name="offset" id="offset2" placeholder="Digite ou selecione um número..." required>
     </form>
-  </div>
+    </div>
 <br>
 <!--BOTÃO DE ENCODE-->
 <section>
@@ -31,14 +31,14 @@
   <div id="encodeButton">
     <form class="" action="index.html" method="post">
       <label for="encodeButton"></label>
-      <button type="submit" id="encodeButton2">Cifrar</button>
+      <button type="submit" id="encodeButton2" name="encode">Cifrar</button>
     </form>
   </div>
   <!--BOTÃO DE DECODE-->
   <div id="decodeButton">
     <form class="number" action="index.html" method="post">
       <label for="decodeButton"></label>
-      <button type="submit" id="decodeButton2">Decifrar</button>
+      <button type="submit" id="decodeButton2" name="decode">Decifrar</button>
     </form>
   </div>
 </section>
