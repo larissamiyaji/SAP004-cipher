@@ -11,6 +11,7 @@ encode: function(offset, string){
     mensagemEncoded += String.fromCharCode(cifrar);
   } return mensagemEncoded;
 },
+
 //FUNÇÃO DECODE
 decode: function(offset, string){
   let mensagemDecoded = " ";
@@ -24,3 +25,6 @@ decode: function(offset, string){
 }
 };
 export default cipher;
+
+
+
