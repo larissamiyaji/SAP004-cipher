@@ -1,6 +1,5 @@
 import cipher from './cipher.js';
 
-
 function encode(event){
   event.preventDefault();
   let mensagem = document.getElementById('mensagemToEncode').value.toUpperCase();
