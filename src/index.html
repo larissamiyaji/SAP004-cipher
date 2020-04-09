@@ -2,58 +2,72 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Correio de César</title>
+    <title>My Secret Diary</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
-    <header>Correio de César</header><hr>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <header>My Secret Diary</header>
   </head>
-
-<!--CAIXAS DE TEXTO ENCODE-->
+  
+  <div id="bagaça">
+  <aside id="caixaInstrucao">
+    <h1>Como usar o Correio de César?</h1>
+      <p>É muito fácil usar o Correio de César. Basta seguir os passos abaixo:<br>
+        <ol id="instructionsList">
+          <li>Insira sua mensagem na primeira caixa de texto</li>
+          <li>Escolha o número que deseja iniciar o deslocamento</li>
+          <li>Escolha se deseja cifrar ou decifrar sua mensagem</li>
+          <li>Aproveite</li>
+        </ol>
+      </p>
+  </aside>
+        <!--CAIXAS DE TEXTO ENCODE-->
   <body>
-<div id="caixas">
-  <div id="encode">
-    <form class="digite1" action="index.html" method="post">
-      <label id="encodeTitle" for="mensagem">O que você quer dizer?</label><br>
-      <textarea type="text" id="mensagemToEncode"></textarea>
-    </form>
-  </div>
-<!--ESCOLHA DO OFFSET-->
-  <div id="offset">
-    <form class="offsetButton" action="index.html" method="post">
-      <label for="offsetButton">Selecione o deslocamento</label><br>
-      <input type="number" min="0" name="offset" id="offset2" placeholder="Digite ou selecione um número..." required>
-    </form>
-    </div>
+    <aside id="caixas">
+      <div id="encode">
+        <form class="digite1" action="index.html" method="post">
+          <label id="encodeTitle" for="mensagem">Como foi seu dia?</label><br>
+            <textarea type="text" id="mensagemToEncode"></textarea>
+        </form>
+      </div>
+        <!--ESCOLHA DO OFFSET-->
+      <div id="offset">
+        <form class="offsetButton" action="index.html" method="post">
+          <label for="offsetButton">Selecione o deslocamento</label><br>
+            <input type="number" min="0" name="offset" id="offset2" placeholder="Digite ou selecione um número..." required>
+        </form>
+      </div>
 <br>
-<!--BOTÃO DE ENCODE-->
-<section>
-  <div id="buttons">
-    <div id="encodeButton">
-      <form class="" action="index.html" method="post">
-        <label for="encodeButton"></label>
-          <button type="submit" id="encodeButton2" name="encode">Cifrar</button>
-      </form>
-    </div>
-      <!--BOTÃO DE DECODE-->
-    <div id="decodeButton">
-      <form class="number" action="index.html" method="post">
-        <label for="decodeButton"></label>
-        <button type="submit" id="decodeButton2" name="decode">Decifrar</button>
-      </form>
-    </div>
+          <!--BOTÃO DE ENCODE-->
+      <section>
+        <div id="buttons">
+          <div id="encodeButton">
+            <form class="" action="index.html" method="post">
+                <label for="encodeButton"></label>
+                  <button type="submit" id="encodeButton2" name="encode">Cifrar</button>
+             </form>
+         </div>
+         <!--BOTÃO DE DECODE-->
+         <div id="decodeButton">
+           <form class="number" action="index.html" method="post">
+             <label for="decodeButton"></label>
+              <button type="submit" id="decodeButton2" name="decode">Decifrar</button>
+           </form>
+         </div>
+       </div>
+     </section>
+          <!--CAIXAS DE TEXTO DECODE-->
+    <div id="encoded">
+      <form class="digite2" action="index.html" method="post">
+        <label id="decodeTitle" for="mensagemDecode">Seu segredo está seguro aqui</label><br>
+          <textarea type="text" readonly="true" id="mensagemEncoded"></textarea>
+     </form>
+   </div>
+    </aside>
   </div>
-</section>
-<!--CAIXAS DE TEXTO DECODE-->
-  <div id="encoded">
-    <form class="digite2" action="index.html" method="post">
-      <label id="decodeTitle" for="mensagemDecode">Sua mensagem agora fica assim</label><br>
-      <textarea type="text" readonly="true" id="mensagemEncoded"></textarea>
-    </form>
-  </div>
-</div>
+<br><br>
 <hr>
-<!--CAIXAS DE EXPLICAÇÕES-->
-  <div id="caixasDeExplicação">
+
+        <!--CAIXAS DE EXPLICAÇÕES-->
     <div id="introduction">
       <h1>O que é o Correio Cifrado?</h1>
         <p>O Correio de César é uma ferramenta que auxilia na
@@ -63,19 +77,6 @@
             do mesmo alfabeto levando em consideração a chave de deslocamento
             escolhida pelo usuário, para transformar sua mensagem e manter seus
             segredos até o destinatário final.</p>
-    </div>
-<br><br>
-    <div id="instructions">
-      <h1>Como usar o Correio de César?</h1>
-      <p>É muito fácil usar o Correio de César. Basta seguir os passos abaixo:<br>
-<ol id="instructionsList">
-  <li>Insira sua mensagem na primeira caixa de texto</li>
-  <li>Escolha o número que deseja iniciar o deslocamento</li>
-  <li>Escolha se deseja cifrar ou decifrar sua mensagem</li>
-  <li>Aproveite</li>
-</ol>
-      </p>
-    </div>
     </div>
 
     <script src="index.js" type="module"></script>
