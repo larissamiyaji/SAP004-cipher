@@ -1,26 +1,107 @@
 html{
-  /* background-image: repeating-radial-gradient(#c598ae, #f708561c 449px); */
-  background: url("backgroundPicture.jpg");
-  /*font-family: Brush Script MT, Brush Script Std, cursive; */
-  font-family: 'Paprika', cursive;
-  color: white;
+  background: url("diario2.jpg");
+  background-repeat: inherit;
+  background-size: 100%;
+  font-family: 'Caveat', cursive;
 }
 header{
-  text-align: center;
+  text-align: left;
   font-size: 65px;
+  color: black;
+  text-shadow: deeppink 2px 3px 2px;
 }
 p{
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
+  color: white;
+  text-shadow: rgb(91, 7, 124) 2px 3px 2px;
 }
 h1{
-  font-size: 35px;
+  font-size: 45px;
+  color: white;
+  text-shadow: rgb(91, 7, 124) 2px 3px 2px;
 }
-#caixasDeExplicação{
+#bagaça{
+  display: flex;
+}
+#caixaInstrucao{
+  margin-left: 173px;
+  width: 521px;
+  height: 675px;
+  text-align: center;
+  border: 5px;
+  border-style: inset;
+  border-color: deeppink;
+  border-radius: 50px;
+  border-width: 3px;
+  background: #00000030;
+  color: white;
+  text-shadow: rgb(91, 7, 124) 2px 3px 2px;
+}
+#instructionsList{
+  text-align: left;
+  font-size: 30px;
+}
+li{
+  margin-left: 10px;
+  font-size: 40px;
+}
+#encodeTitle, #decodeTitle{
+  font-size: 40px;
+  text-align: center;
+  margin-left: 168px;
+/*  margin-right: 10px; */
+}
+#caixas{
+/*  margin-right: 100px;*/
+margin-left: -56px;
+}
+#mensagemToEncode, #mensagemEncoded{
+  width: 400px;
+  height: 220px;
+  margin-left: 173px;
+  text-align: center;
+  font-family: 'Paprika', cursive;
+  font-size: 30px;
+  font-family: 'Caveat', cursive;
+  background: #fff0f000;
+  color: black;
+}
+.digite1, .digite2{
+  text-align: center;
+  font-size: 30px;
+  margin-block-start: auto;
+  color: black;
+}
+#buttons{
+  display: flex;
+  margin-left: 310px;
+}
+#encodeButton2, #decodeButton2, #offset2{
+  margin-right: 10px;
   display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Paprika', cursive;
+  color: black;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: deeppink;
+  background: #fff0f000;
 }
-#introduction, #instructions{
-  display: block;
+#offset{
+  font-size: 25px;
+  text-align: center;
+  margin-left: 200px;
+  color: black;
+}
+#offset2{
+  background: #fff0f000;
+  width: 300px;
+  font-family: 'Paprika', cursive;
+  font-size: 15px;
+}
+#introduction{
   background: #00000030;
   text-align: center;
   margin-left: 50px;
@@ -32,61 +113,6 @@ h1{
   padding-right: 10px;
   border-radius: 90px;
   border-width: 3px;
-}
-#instructionsList{
-  text-align: left;
-  font-size: 30px;
-}
-li{
-  margin-left: 150px;
-}
-#encodeTitle, #decodeTitle{
-  text-align: center;
-  margin-right: 10px;
-}
-#caixas{
-  display: block;
-}
-#mensagemToEncode, #mensagemEncoded{
-  width: 700px;
-  height: 150px;
-  margin-right: 10px;
-  text-align: center;
-  font-family: 'Paprika', cursive;
-  font-size: 30px;
-  border-radius: 10px;
-  border-width: 2px;
-  border-color: deeppink;
-  background: #00000030;
-}
-.digite1, .digite2{
-  text-align: center;
-  font-size: 30px;
-}
-#buttons{
-  display: flex;
-  margin-left: 597px;
-  margin-right: 200px;
-}
-#encodeButton2, #decodeButton2, #offset2{
-  margin-right: 10px;
-  display: inline-block;
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Paprika', cursive;
-  color: white;
-  border-radius: 3px;
-  border-width: 2px;
-  border-color: deeppink;
-  background: #00000030;
-}
-#offset{
-  font-size: 25px;
-  text-align: center;
-}
-#offset2{
-  background: #00000030;
-  width: 300px;
-  font-family: 'Paprika', cursive;
-  font-size: 15px;
+  color: black;
+  text-shadow: deeppink 2px 3px 2px;
 }
