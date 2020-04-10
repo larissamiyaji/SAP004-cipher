@@ -21,6 +21,14 @@ Com sua função de codificar as mensagens inseriadas pelo usuário, o mesmo pod
 2. Escolha o deslocamento que deseja usar para codificar, ou o deslocamento correto para retomar sua mensagem original.
 3. Escolha o botão "Cifrar" para transformar sua mensagem em segredo, ou o botão "Decifrar" para resgatar sua mensagem original.
 
+## Como foi feito o My Secret Diary?
+
+O projeto foi dividido em 4 grandes documentos:
+* HTML (index.html): Aqui foi montada toda a estrutura da página. Descrição do programa, instruções, caixas para inserir e receber as mensagens, caixa para escolher o deslocamento e botões para codificar e decodificar. As caixas para inseriar e receber mensagens foram criadas como "textarea", sendo que a segunda é apenas para leitura. Os botões foram inseridos com "inputs" sendo os de codificar e decodificar do tipo "submit" e o botão do offset do tipo "number".
+
+* JavaScript (index.js): Aqui 
+* JavaScript (cipher.js):
+* CSS (style.css):
 
 
 
@@ -30,34 +38,6 @@ Com sua função de codificar as mensagens inseriadas pelo usuário, o mesmo pod
 
 
 
-
-
-## O que é a Cifra de César?
-
-Cifrar significa codificar. A [cifra de
-César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
-tipos de criptografias conhecidas na história. O imperador romano Júlio César
-utilizava essa cifra para enviar ordens secretas aos seus generais no campo de
-batalha.
-
-![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
-
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
-tipo de cifra por substituição, em que cada letra do texto original é
-substituida por outra que se encontra há um número fixo de posições
-(deslocamento) mais a frente do mesmo alfabeto.
-
-Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
-
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
-
-Atualmente todas as cifras de substituição alfabética simples, são decifradas
-com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
-muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
-a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 3. Objetivos de aprendizagem
 
