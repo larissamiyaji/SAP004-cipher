@@ -1,6 +1,6 @@
 # My Secret Diary
 
-## Índice
+/* ## Índice
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
@@ -12,7 +12,7 @@
 * [7. Considerações técnicas](#7-considerações-técnicas)
 * [8. Guias, dicas e leituras
   complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+* [9. Checklist](#9-checklist) */
 
 ***
 
