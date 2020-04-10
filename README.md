@@ -1,22 +1,38 @@
 # My Secret Diary
+Como foi o seu dia hoje?
 
-/* ## Índice
+## O que é o My SecretDiary?
 
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras
-  complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist) */
+O My Secret Diary é uma ferramenta que auxilia na codificação e decodificação de mensagens inseridas pelo usuário.
 
-***
+# Para quem foi feito o My Secret Diary?
 
-## 1. Prefácio
+O My Secret Diary é voltado para todos os públicos que queiram contar suas histórias, contar seus segredos e desabafar acerca de como foi seu dia, porém não confiam em apenas esconder seus diários de papel pela casa.
+
+## Como o My Secret Diary resolve os problemas dos usuário?
+
+Com sua função de codificar as mensagens inseriadas pelo usuário, o mesmo pode se sentir seguro, pois suas histórias estarão sempre seguras já que foram criptografadas pelo My Secret Diary e somente poderão ser decodificadas inserindo a mensagem codificada e a chave de deslocamnto correta. 
+
+## Como usar o My Secret Diary:
+
+É muito simples de usar, basta seguir os passos a seguir
+
+1. Inserir a mensagem que deseja manter em segredo, ou uma mensagem que codificada.
+2. Escolha o deslocamento que deseja usar para codificar, ou o deslocamento correto para retomar sua mensagem original.
+3. Escolha o botão "Cifrar" para transformar sua mensagem em segredo, ou o botão "Decifrar" para resgatar sua mensagem original.
+
+
+
+
+
+
+
+
+
+
+
+
+## O que é a Cifra de César?
 
 Cifrar significa codificar. A [cifra de
 César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
@@ -42,22 +58,6 @@ Atualmente todas as cifras de substituição alfabética simples, são decifrada
 com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
-
-## 2. Resumo do projeto
-
-O que eu tenho que fazer exatamente? Neste projeto você criará a primeira
-aplicação web do _bootcamp_. Nela o usuário poderá cifrar e decrifrar um texto
-indicando a chave de deslocamento (_offset_).
-
-O tema é livre. Você deve pensar em alguma situação de vida real em que seja
-necessário cifrar uma mensagem e pensar em como deve ser a experiência do
-usuário (tela, explicações, mensagens, cores, marca?, etc.). Algumas ideias de
-exemplo:
-
-* Mensagens secretas para alguma pessoa.
-* Ferramenta de mensagens internas de uma organização em uma zona de conflito.
-* Cifrar cartões de crédito.
-* Criar senhas seguras para email.
 
 ## 3. Objetivos de aprendizagem
 
