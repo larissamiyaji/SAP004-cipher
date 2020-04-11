@@ -24,11 +24,14 @@ Com sua função de codificar as mensagens inseriadas pelo usuário, o mesmo pod
 ## Como foi feito o My Secret Diary?
 
 O projeto foi dividido em 4 grandes documentos:
+
 * HTML (index.html): Aqui foi montada toda a estrutura da página. Descrição do programa, instruções, caixas para inserir e receber as mensagens, caixa para escolher o deslocamento e botões para codificar e decodificar. As caixas para inseriar e receber mensagens foram criadas como "textarea", sendo que a segunda é apenas para leitura. Os botões foram inseridos com "inputs" sendo os de codificar e decodificar do tipo "submit" e o botão do offset do tipo "number".
 
-* JavaScript (index.js): Aqui 
-* JavaScript (cipher.js):
-* CSS (style.css):
+* JavaScript (index.js): Aqui foi feita toda a manipulação do DOM. 
+
+* JavaScript (cipher.js): Neste arquivo JavaScript foram feitas as funções de codificar e decodificar as mensagens.
+
+* CSS (style.css): Neste arquivo foi feita toda e estilização do programa.
 
 
 
