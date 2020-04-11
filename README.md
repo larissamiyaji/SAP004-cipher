@@ -1,7 +1,7 @@
 # My Secret Diary
 Como foi o seu dia hoje?
 
-## O que é o My SecretDiary?
+## O que é o My Secret Diary?
 
 O My Secret Diary é uma ferramenta que auxilia na codificação e decodificação de mensagens inseridas pelo usuário.
 
