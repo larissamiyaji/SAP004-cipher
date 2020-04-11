@@ -13,13 +13,13 @@ header{
 p{
   font-size: 40px;
   text-align: center;
-  color: white;
-  text-shadow: rgb(91, 7, 124) 2px 3px 2px;
+  color: deeppink;
+  text-shadow: black 3px 3px 0px;
 }
 h1{
   font-size: 45px;
-  color: white;
-  text-shadow: rgb(91, 7, 124) 2px 3px 2px;
+  color: deeppink;
+  text-shadow: black 3px 3px 0px;
 }
 #bagaça{
   display: flex;
@@ -35,8 +35,8 @@ h1{
   border-radius: 50px;
   border-width: 3px;
   background: #00000030;
-  color: white;
-  text-shadow: rgb(91, 7, 124) 2px 3px 2px;
+  color: deeppink;
+  text-shadow: black 3px 3px 0px;
 }
 #instructionsList{
   text-align: left;
