@@ -33,36 +33,8 @@ O projeto foi dividido em 4 grandes documentos:
 
 * CSS (style.css): Neste arquivo foi feita toda e estilização do programa.
 
-## Como fazer o deploy?
+## Para realizar o deploy, siga os passos abaixo:
 
-
-
-
-
-
-
-
-
-
-
-
-
-### Scripts / Arquivos
-
-* `REAME.md`: deve explicar como fazer deploy, instalar e executar a aplicação,
-  assim como uma introdução a aplicação, suas funcionalidades e as decisões que
-  foram tomadas.
-* `src/index.html`: aqui será o ponto de entrada da sua aplicação. Este arquivo
-  deve conter a marcação HTML e chamar o CSS e JavaScript necessários.
-* `src/cipher.js`: aqui você deve implementar o objeto `cipher`, o qual já está
-  _exportado_ no _boilerplate_. Este objeto (`cipher`) deve conter dois métodos:
-  - `cipher.encode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a direita no alfabeto e `string` é a mensagem (texto)
-      que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` é o número de posições que
-      queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
-      que queremos decifrar.
-* `src/index.js`: aqui você deve escutar os eventos de DOM, chamar
-  `cipher.encode()` e `cipher.decode()`.
-* `test/cipher.spec.js`: este arquivo contem alguns testes de exemplo e aqui
-  você deve implementar os testes para `cipher.encode()` e `cipher.decode()`.
+1. No GitHub, entre no repositório desejado e clique em "Settings".
+2. Role a página para baixo até encontrar "GitHub Pages".
+3. Clique no menu suspenso "Source" e selecione uma fonte de publicação.
