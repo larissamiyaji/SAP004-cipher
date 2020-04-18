@@ -1,84 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Secret Diary</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <header>My Secret Diary</header>
-  </head>
-  
-  <div id="bagaça">
-  <aside id="caixaInstrucao">
-    <h1>Como usar o My Secret Diary?</h1>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Secret Diary</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <header>My Secret Diary</header>
+</head>
+
+<body>
+  <div class="bagaça">
+    <main class="caixa-de-instrucao">
+      <h1>Como usar o My Secret Diary?</h1>
       <p>É muito fácil usar o My Secret Diary. Basta seguir os passos abaixo:<br>
-        <ol id="instructionsList">
+        <ol class="instructions-list">
           <li>Insira sua mensagem na primeira caixa de texto</li>
           <li>Escolha o número que deseja iniciar o deslocamento</li>
           <li>Escolha se deseja cifrar ou decifrar sua mensagem</li>
           <li>Aproveite</li>
         </ol>
       </p>
-  </aside>
-        <!--CAIXAS DE TEXTO ENCODE-->
-  <body>
-    <aside id="caixas">
-      <div id="encode">
-        <form class="digite1" action="index.html" method="post">
-          <label id="encodeTitle" for="mensagem">Como foi seu dia?</label><br>
-            <textarea type="text" id="mensagemToEncode"></textarea>
+    </main>
+    <!--CAIXAS DE TEXTO ENCODE-->
+    <aside class="caixas">
+      <div class="encode">
+        <form class="digite-mensagem" action="index.html" method="post">
+          <label class="encode-title" for="mensagem">Como foi seu dia?</label><br>
+          <textarea type="text" id="mensagem-to-encode"></textarea>
         </form>
       </div>
-        <!--ESCOLHA DO OFFSET-->
+      <!--ESCOLHA DO OFFSET-->
       <div id="offset">
-        <form class="offsetButton" action="index.html" method="post">
+        <form class="offset-button" action="index.html" method="post">
           <label for="offsetButton">Selecione o deslocamento</label><br>
-            <input type="number" min="0" name="offset" id="offset2" placeholder="Digite ou selecione um número..." required>
+          <input type="number" min="0" name="offset" id="offset-number" placeholder="Digite ou selecione um número..."
+            required>
         </form>
       </div>
-<br>
-          <!--BOTÃO DE ENCODE-->
+      <br>
+      <!--BOTÃO DE ENCODE-->
       <section>
         <div id="buttons">
-          <div id="encodeButton">
+          <div id="encode-button">
             <form class="" action="index.html" method="post">
-                <label for="encodeButton"></label>
-                  <button type="submit" id="encodeButton2" name="encode">Cifrar</button>
-             </form>
-         </div>
-         <!--BOTÃO DE DECODE-->
-         <div id="decodeButton">
-           <form class="number" action="index.html" method="post">
-             <label for="decodeButton"></label>
-              <button type="submit" id="decodeButton2" name="decode">Decifrar</button>
-           </form>
-         </div>
-       </div>
-     </section>
-          <!--CAIXAS DE TEXTO DECODE-->
-    <div id="encoded">
-      <form class="digite2" action="index.html" method="post">
-        <label id="decodeTitle" for="mensagemDecode">Seu segredo está seguro aqui</label><br>
-          <textarea type="text" readonly="true" id="mensagemEncoded"></textarea>
-     </form>
-   </div>
+              <label for="encodeButton"></label>
+              <button type="submit" id="encode-button-click" name="encode">Cifrar</button>
+            </form>
+          </div>
+          <!--BOTÃO DE DECODE-->
+          <div id="decodeButton">
+            <form class="number" action="index.html" method="post">
+              <label for="decodeButton"></label>
+              <button type="submit" id="decode-button-click" name="decode">Decifrar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--CAIXAS DE TEXTO DECODE-->
+      <div id="encoded">
+        <form class="digite-resultado" action="index.html" method="post">
+          <label class="decode-title" for="mensagemDecode">Seu segredo está seguro aqui</label><br>
+          <textarea type="text" readonly="true" id="mensagem-encoded"></textarea>
+        </form>
+      </div>
     </aside>
   </div>
-<br><br>
-<hr>
+  <br><br>
+  <hr>
+  <!--CAIXAS DE EXPLICAÇÕES-->
+  <div id="introduction">
+    <h1>O que é o My Secret Diary?</h1>
+    <p>O My Secret Diary é uma ferramenta que auxilia na
+      cifragem e decifragem de mensagens secretas.
+      Usamos a técnica da Cifra de César, que é um método de criptografia
+      na qual cada uma das letras de uma mensagem é substituída por outra
+      do mesmo alfabeto levando em consideração a chave de deslocamento
+      escolhida pelo usuário, para transformar sua mensagem e manter
+      todos os seus segredos.</p>
+  </div>
 
-        <!--CAIXAS DE EXPLICAÇÕES-->
-    <div id="introduction">
-      <h1>O que é o My Secret Diary?</h1>
-        <p>O My Secret Diary é uma ferramenta que auxilia na
-            cifragem e decifragem de mensagens secretas.
-            Usamos a técnica da Cifra de César, que é um método de criptografia
-            na qual cada uma das letras de uma mensagem é substituída por outra
-            do mesmo alfabeto levando em consideração a chave de deslocamento
-            escolhida pelo usuário, para transformar sua mensagem e manter 
-            todos os seus segredos.</p>
-    </div>
+  <script src="index.js" type="module"></script>
+</body>
 
-    <script src="index.js" type="module"></script>
-  </body>
 </html>

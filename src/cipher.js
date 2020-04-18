@@ -9,7 +9,8 @@ encode: function(offset, mensagem){
     let letraASC = mensagem1[i].charCodeAt();
     let cifrar = ((letraASC - 65 + offset) % 26) + 65;
     mensagemEncoded += String.fromCharCode(cifrar);
-  } return mensagemEncoded;
+  } 
+  return mensagemEncoded;
 },
 
 //FUNÇÃO DECODE
@@ -21,7 +22,8 @@ decode: function(offset, mensagem){
     let letraASC = mensagem1[i].charCodeAt();
     let decifrar = ((letraASC - 90 - offset) % 26) + 90;
     mensagemDecoded += String.fromCharCode(decifrar);
-  } return mensagemDecoded;
+  }
+   return mensagemDecoded;
 }
 };
 export default cipher;

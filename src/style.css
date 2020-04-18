@@ -21,10 +21,10 @@ h1{
   color: deeppink;
   text-shadow: black 3px 3px 0px;
 }
-#bagaça{
+.bagaça{
   display: flex;
 }
-#caixaInstrucao{
+.caixa-de-instrucao{
   margin-left: 173px;
   width: 521px;
   height: 675px;
@@ -38,7 +38,7 @@ h1{
   color: deeppink;
   text-shadow: black 3px 3px 0px;
 }
-#instructionsList{
+.instructions-list{
   text-align: left;
   font-size: 30px;
 }
@@ -46,17 +46,15 @@ li{
   margin-left: 10px;
   font-size: 40px;
 }
-#encodeTitle, #decodeTitle{
+.encode-title, .decode-title{
   font-size: 40px;
   text-align: center;
   margin-left: 168px;
-/*  margin-right: 10px; */
 }
-#caixas{
-/*  margin-right: 100px;*/
+.caixas{
 margin-left: -56px;
 }
-#mensagemToEncode, #mensagemEncoded{
+#mensagem-to-encode, #mensagem-encoded{
   width: 400px;
   height: 220px;
   margin-left: 173px;
@@ -67,7 +65,7 @@ margin-left: -56px;
   background: #fff0f000;
   color: black;
 }
-.digite1, .digite2{
+.digite-mensagem, .digite-resultado{
   text-align: center;
   font-size: 30px;
   margin-block-start: auto;
@@ -77,7 +75,7 @@ margin-left: -56px;
   display: flex;
   margin-left: 310px;
 }
-#encodeButton2, #decodeButton2, #offset2{
+#encode-button-click, #decode-button-click, #offset-number{
   margin-right: 10px;
   display: inline-block;
   text-align: center;
@@ -95,7 +93,7 @@ margin-left: -56px;
   margin-left: 200px;
   color: black;
 }
-#offset2{
+#offset-number{
   background: #fff0f000;
   width: 300px;
   font-family: 'Paprika', cursive;
