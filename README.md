@@ -5,6 +5,8 @@ Como foi o seu dia hoje?
 
 O My Secret Diary é uma ferramenta que auxilia na codificação e decodificação de mensagens inseridas pelo usuário.
 
+![My Secret Diary](src/images/my-secret-diary.PNG)
+
 # Para quem foi feito o My Secret Diary?
 
 O My Secret Diary é voltado para todos os públicos que queiram contar suas histórias, contar seus segredos e desabafar acerca de como foi seu dia, porém não confiam em apenas esconder seus diários de papel pela casa.
