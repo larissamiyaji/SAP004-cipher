@@ -40,3 +40,9 @@ O projeto foi dividido em 4 grandes documentos:
 1. No GitHub, entre no repositório desejado e clique em "Settings".
 2. Role a página para baixo até encontrar "GitHub Pages".
 3. Clique no menu suspenso "Source" e selecione uma fonte de publicação.
+
+## Para clonar em sua máquina, segui os passos a seguir:
+
+1.Faça um fork deste repositório e em seguida faça um clone para sua máquina digitando o comando git clone <link do seu fork> na sua linha de comando (CLI).
+
+2. Abra a pasta do projeto navegando pela CLI e rode npm install para realizar a instalação de todas as dependências necessárias para o projeto.
