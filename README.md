@@ -3,7 +3,7 @@ Como foi o seu dia hoje?
 
 ## O que é o My Secret Diary?
 
-O My Secret Diary é uma ferramenta que auxilia na codificação e decodificação de mensagens inseridas pelo usuário. Utilizando a metodologia da Cifra de César. Mas o que é essa cifra? É uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.
+O My Secret Diary é uma ferramenta que auxilia na codificação e decodificação de mensagens inseridas pelo usuário utilizando a metodologia da Cifra de César. Mas o que é essa cifra? É uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.
 
 ![My Secret Diary](src/images/my-secret-diary.PNG)
 
