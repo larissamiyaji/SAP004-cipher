@@ -43,6 +43,6 @@ O projeto foi dividido em 4 grandes documentos:
 
 ## Para clonar em sua máquina, segui os passos a seguir:
 
-1.Faça um fork deste repositório e em seguida faça um clone para sua máquina digitando o comando git clone <link do seu fork> na sua linha de comando (CLI).
+1.Faça um fork deste repositório e em seguida faça um clone para sua máquina digitando o comando `git clone <link do seu fork>` na sua linha de comando (CLI).
 
-2. Abra a pasta do projeto navegando pela CLI e rode npm install para realizar a instalação de todas as dependências necessárias para o projeto.
+2. Abra a pasta do projeto navegando pela CLI e rode `npm install` para realizar a instalação de todas as dependências necessárias para o projeto.
